@@ -8,6 +8,7 @@ import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starte
 import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+import Leverage from "./tutorial/05-leverage-javascript/starter/List";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <MultipleReturnsFetchData /> */}
       {/* <ToggleChallenge /> */}
-      <UserChallenge />
+      {/* <UserChallenge /> */}
+      <Leverage />
     </div>
   );
 }
