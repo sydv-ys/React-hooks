@@ -8,7 +8,6 @@ import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starte
 import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
-//test
 
 function App() {
   return (
