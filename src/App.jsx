@@ -9,6 +9,8 @@ import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
 import Leverage from "./tutorial/05-leverage-javascript/starter/List";
+import Form from "./tutorial/06-forms/starter/01-controlled-inputs";
+import FormChallenge from "./tutorial/06-forms/starter/02-user-challenge";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <MultipleReturnsFetchData /> */}
       {/* <ToggleChallenge /> */}
       {/* <UserChallenge /> */}
-      <Leverage />
+      {/* <Leverage /> */}
+      {/* <Form /> */}
+      <FormChallenge />
     </div>
   );
 }
