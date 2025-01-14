@@ -46,13 +46,13 @@ const UserChallenge = () => {
       {/* render users below */}
 
       <h3>users</h3>
-      {user.map((data) => {
+      {user.map((user) => {
         return (
-          <div key={data.id}>
-            <h4>{data.name}</h4>
+          <div key={user.id}>
+            <h4>{user.name}</h4>
             <button
               onClick={() => {
-                removeUser(data.id);
+                removeUser(user.id);
               }}
               className="btn"
             >
