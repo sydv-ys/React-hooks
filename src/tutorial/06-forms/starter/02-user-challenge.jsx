@@ -43,7 +43,6 @@ const UserChallenge = () => {
           submit
         </button>
       </form>
-      {/* render users below */}
 
       <h3>users</h3>
       {user.map((user) => {
