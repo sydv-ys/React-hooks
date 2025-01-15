@@ -11,6 +11,9 @@ import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-c
 import Leverage from "./tutorial/05-leverage-javascript/starter/List";
 import Form from "./tutorial/06-forms/starter/01-controlled-inputs";
 import FormChallenge from "./tutorial/06-forms/starter/02-user-challenge";
+import FormMultipleInput from "./tutorial/06-forms/starter/03-multiple-inputs";
+import CheckBox from "./tutorial/06-forms/starter/04-other-inputs";
+import FormData from "./tutorial/06-forms/starter/05-form-data";
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <UserChallenge /> */}
       {/* <Leverage /> */}
       {/* <Form /> */}
-      <FormChallenge />
+      {/* <FormChallenge /> */}
+      {/* <FormMultipleInput /> */}
+      <CheckBox />
+      <FormData />
     </div>
   );
 }
