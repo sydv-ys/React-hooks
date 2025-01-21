@@ -14,6 +14,7 @@ import FormChallenge from "./tutorial/06-forms/starter/02-user-challenge";
 import FormMultipleInput from "./tutorial/06-forms/starter/03-multiple-inputs";
 import CheckBox from "./tutorial/06-forms/starter/04-other-inputs";
 import FormData from "./tutorial/06-forms/starter/05-form-data";
+import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
 
 function App() {
   return (
@@ -31,8 +32,9 @@ function App() {
       {/* <Form /> */}
       {/* <FormChallenge /> */}
       {/* <FormMultipleInput /> */}
-      <CheckBox />
-      <FormData />
+      {/* <CheckBox /> */}
+      {/* <FormData /> */}
+      <UseRefBasics />
     </div>
   );
 }
