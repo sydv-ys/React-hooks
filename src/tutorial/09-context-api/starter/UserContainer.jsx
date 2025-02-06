@@ -1,15 +1,16 @@
-import React, { useContext } from "react";
-import { NavbarContext } from "./Navbar";
+import { useAppContest } from "./Navbar";
 
 function UserContainer() {
-  const { user, logout } = useContext(NavbarContext);
+  const { user, logout } = useAppContest();
 
   return (
     <div className="user-container">
       {user ? (
         <>
           <p>Hello There {user?.name}</p>
-          <button className="btn" onClick={logout}>logout</button>{" "}
+          <button className="btn" onClick={logout}>
+            logout
+          </button>{" "}
         </>
       ) : (
         <p>Please login</p>
