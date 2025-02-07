@@ -18,6 +18,7 @@ import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
 import CustomHookToggle from "./tutorial/08-custom-hooks/starter/01-toggle";
 import CustomHookFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 import ContextApi from "./tutorial/09-context-api/starter/Navbar";
+import UseReducer from "./tutorial/10-useReducer/starter/01-useReducer";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <UseRefBasics /> */}
       {/* <CustomHookToggle /> */}
       {/* <CustomHookFetchData /> */}
-      <ContextApi />
+      {/* <ContextApi /> */}
+      <UseReducer />
     </div>
   );
 }
