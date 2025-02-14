@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
-import { data, people } from "../../../data";
+import { data } from "../../../data";
+import { CLEAR_LIST, REMOVE_ITEM, RESET_LIST } from "./actions";
 import reducer from "./reducer";
-import { CLEAR_LIST, RESET_LIST, REMOVE_ITEM } from "./actions";
 
 const defaultState = {
   people: data,

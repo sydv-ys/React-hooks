@@ -1,7 +1,5 @@
-import React, { useState, createContext } from "react";
+import React, { createContext, useContext, useState } from "react";
 import NavLinks from "./NavLinks";
-import UserContainer from "./UserContainer";
-import { useContext } from "react";
 
 export const useAppContest = () => useContext(NavbarContext);
 

@@ -10,7 +10,7 @@ function UserContainer() {
           <p>Hello There {user?.name}</p>
           <button className="btn" onClick={logout}>
             logout
-          </button>{" "}
+          </button>
         </>
       ) : (
         <p>Please login</p>

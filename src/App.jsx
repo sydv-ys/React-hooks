@@ -19,6 +19,7 @@ import CustomHookToggle from "./tutorial/08-custom-hooks/starter/01-toggle";
 import CustomHookFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 import ContextApi from "./tutorial/09-context-api/starter/Navbar";
 import UseReducer from "./tutorial/10-useReducer/starter/01-useReducer";
+import Performance from "./tutorial/11-performance/starter/01-lower-state";
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <CustomHookToggle /> */}
       {/* <CustomHookFetchData /> */}
       {/* <ContextApi /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Performance />
     </div>
   );
 }
